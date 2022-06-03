@@ -145,4 +145,18 @@
         app:layout_constraintTop_toBottomOf="@+id/gridLayout"
         app:layout_constraintVertical_bias="0.241" />
 
+    <ImageView
+        android:id="@+id/pacman_text"
+        android:layout_width="375dp"
+        android:layout_height="230dp"
+        android:background="@drawable/pacmantext1"
+        android:contentDescription="@string/image_des"
+
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.203" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
